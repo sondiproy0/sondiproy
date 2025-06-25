@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         typingElement.innerHTML = currentLetters;
 
-        let typeSpeed = 200;
+        let typeSpeed = 100;
         if (isDeleting) {
             typeSpeed /= 2;
         }
