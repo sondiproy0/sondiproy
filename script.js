@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const typingElement = document.getElementById('typing');
-    const words = ["Web Developer", "Developer", "Web Designer", "Youtuber", "Script Writer"];
+    const words = ["Cyber Security Professional", "Penetration Tester", "CTF Player", "Mentor",];
     let wordIndex = 0;
     let letterIndex = 0;
     let currentWord = '';
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         typingElement.innerHTML = currentLetters;
 
-        let typeSpeed = 200;
+        let typeSpeed = 100;
         if (isDeleting) {
             typeSpeed /= 2;
         }
