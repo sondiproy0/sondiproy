@@ -1,0 +1,23 @@
+    .skill-card {
+      border-radius: 16px;
+      transition: transform 0.3s ease;
+      background-color: #fff;
+    }
+
+    .skill-card:hover {
+      transform: scale(1.03);
+    }
+
+    .skill-header {
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+
+    .skill-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+    }
